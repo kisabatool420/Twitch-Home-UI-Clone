@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kisa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/edfe7f4672.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="navbar">
+        <ul>
+            <li><img id="logo" src="images/logo.png"><span id="link-1"><a href="">browse</a></span> <i id="menu-icon"
+                    class="fa-solid fa-ellipsis-vertical"></i></li>
+            <li id="search-field"><input placeholder="Search" type="text"> <i id="search-icon"
+                    class="fa-solid fa-magnifying-glass icon"></i></li>
+            <li id="notify"><i class="fa-solid fa-crown"></i><span>
+                    <p>10</p>
+                </span></li>
+            <li id="profile-panel"><button id="Login">Log in</button><button id="Signup">Sig Up</button><i
+                    id="user-icon" class="fa-solid fa-user-large"></i></li>
+        </ul>
+
+    </div>
+    <div id="sidebar">
+        <p id="side-heading">Recommended Channel<i style="margin-left:25px" class="fa-solid fa-crown"></i></p>
+        <div class="sidebar-channel-box">
+            <img class="sidebar-img" src="images/cat.jpg" alt="" height="40">
+            <div class="sidebar-textbox">
+                <h3>cat Gang</h3>
+                <p>Mewo</p>
+            </div>
+            <p class="sidebar-live-no">73.9k</p>
+            <div class="sidebar-live-icon"></div>
+        </div>
+        <div class="sidebar-channel-box">
+            <img class="sidebar-img" src="images/dog.jpeg" height="40px">
+            <div class="sidebar-textbox">
+                <h3>Dog gang</h3>
+                <p>baho baho</p>
+            </div>
+            <p class="sidebar-live-no">8.1k</p>
+            <div class="sidebar-live-icon"></div>
+        </div>
+        <div class="sidebar-channel-box">
+            <img class="sidebar-img" src="images/slider/jinnytty.png" height="40px">
+            <div class="sidebar-textbox">
+                <h3>Jinnytty</h3>
+                <p>just chatting</p>
+            </div>
+            <p class="sidebar-live-no">5.1k</p>
+            <div class="sidebar-live-icon"></div>
+        </div>
+        <div class="sidebar-channel-box">
+            <img class="sidebar-img" src="images/slider/unnamed.jpg" height="40px">
+            <div class="sidebar-textbox">
+                <h3>GAME</h3>
+                <p>play</p>
+            </div>
+            <p class="sidebar-live-no">2.6k</p>
+            <div class="sidebar-live-icon"></div>
+        </div>
+        <div class="sidebar-channel-box">
+            <img class="sidebar-img" src="images/slider/ESL.png" height="40px">
+            <div class="sidebar-textbox">
+                <h3>ESL</h3>
+                <p>cricket</p>
+            </div>
+            <p class="sidebar-live-no">86.2k</p>
+            <div class="sidebar-live-icon"></div>
+        </div>
+        <div class="sidebar-channel-box">
+            <img class="sidebar-img" src="images/slider/fsf.jpg">
+            <div class="sidebar-textbox">
+                <h3>39DEP</h3>
+                <p>Look</p>
+            </div>
+            <p class="sidebar-live-no">75.2k</p>
+            <div class="sidebar-live-icon"></div>
+        </div>
+        <div class="sidebar-channel-box">
+            <img class="sidebar-img" src="images/slider/singing.jpeg" height="40px">
+            <div class="sidebar-textbox">
+                <h3>SINGER</h3>
+                <p>song</p>
+            </div>
+            <p class="sidebar-live-no">63.5k</p>
+            <div class="sidebar-live-icon"></div>
+        </div>
+        <div class="sidebar-channel-box">
+            <img class="sidebar-img" src="images/slider/chhcarnage.jpg" height="40px">
+            <div class="sidebar-textbox">
+                <h3>chhcarnage</h3>
+                <p>fight</p>
+            </div>
+            <p class="sidebar-live-no">98.6k</p>
+            <div class="sidebar-live-icon"></div>
+        </div>
+        <div class="sidebar-channel-box">
+            <img class="sidebar-img" src="images/slider/okcode.png" height="40px">
+            <div class="sidebar-textbox">
+                <h3>okcode</h3>
+                <p>cooking</p>
+            </div>
+            <p class="sidebar-live-no">56.4k</p>
+            <div class="sidebar-live-icon"></div>
+        </div>
+
+    </div>
+
+    <div id="main">
+        <h1 id="h1"><b>Browse</b></h1>
+        <li> <button class="game"><b>Game</b></button><button class="game" class="IRL"><b>IRL</b></button><button
+                class="game"><b>Music</b></button> <button class="game" class="IRL"><b>Esport</b></button><button
+                class="game" class="IRL"><b>Creative</b></button></li>
+        <img id="tabicon" src="images/browes icon/game.png">
+        <img id="mic" src="images/browes icon/mic.png">
+        <img id="headphone" src="images/browes icon/headphone.png">
+        <img id="worldcup" src="images/browes icon/worldcup.png">
+        <img id="painting" src="images/browes icon/painting.png">
+
+        <div>
+            <p style="color: white;margin-left: 25px;   display: inline-block;font-size: 20px;">Categories</p>
+            <p id="main-line-header">Live channel</p>
+        </div>
+        <div id="main-live-language" style="margin-top: 10px;">
+            <select style="line-height: 50px;  background-color: #2d2d2d;   border: 2px solid purple; border-radius: 3px;  color: white; padding: 5px 10px;">
+                <option value="">Language</option>
+                <option value="eng">English</option>
+                <option value="french">French</option>
+            </select>
+            <input id="live-channel-search-field" type="text" placeholder="Search"
+                style=" background-image: url(images/search-icon.png);" />
+            <span class="main-live-tags">ludumdare <i class="fa-solid fa-x" style="font-size: 10px;"></i></span>
+            <select style="float: right; margin:13px 20px 13px 5px">
+                <option value="">Recommended for you</option>
+                <option value="eng">Recommended by Site</option>
+                <option value="french">By Freinds</option>
+            </select>
+            <span style="color: blanchedalmond;float: right;line-height: 45px;">sort by</span>
+
+        </div>
+        <!-- (wty) -->
+        <!-- main also write -->
+        <div class="main-live-video main-live-one-extra">
+            <div class="main-live-video-imgbox">
+                <img class="main-live-video-img" src="images/live-gaming-img.jpg">
+                <div class="main-live-icon">Live</div>
+                <div class="main-live-views">343 veiws</div>
+            </div>
+            <div class="main-live-dsc">
+                <img class="sidebar-img extra-img " src="images/slider/unnamed.jpg">
+                <div class="main-live-dsc-names">
+                    <p class="main-live-heading"><b>Indie Tales-LUDUM DARE 53 with....</b></p>
+                    <p class="main-profile-name">AdamCYounis</p>
+                    <p class="main-profile-type">Software and Game Development</p>
+                    <span class="main-live-tags">ludumare</span>
+                    <span class="main-live-tags">gamedev</span>
+                    <span class="main-live-tags">Pixelart</span>
+                </div>
+            </div>
+        </div>
+        <!-- 2nd img -->
+        <div class="main-live-video">
+            <div class="main-live-video-imgbox">
+                <img class="main-live-video-img" src="images/2nd img.jpg">
+                <div class="main-live-icon">Live</div>
+                <div class="main-live-views">343 veiws</div>
+            </div>
+            <div class="main-live-dsc">
+                <img class="sidebar-img extra-img " src="images/2nd img.jpg">
+                <div class="main-live-dsc-names">
+                    <p class="main-live-heading"><b>Indie Tales-LUDUM DARE 53 with....</b></p>
+                    <p class="main-profile-name">AdamCYounis</p>
+                    <p class="main-profile-type">Software and Game Development</p>
+                    <span class="main-live-tags">ludumare</span>
+                    <span class="main-live-tags">gamedev</span>
+                    <span class="main-live-tags">Pixelart</span>
+                </div>
+            </div>
+        </div>
+        <!-- 3rd -->
+
+        <div class="main-live-video">
+            <div class="main-live-video-imgbox">
+                <img class="main-live-video-img" src="images/3rd img.jpg">
+                <div class="main-live-icon">Live</div>
+                <div class="main-live-views">343 veiws</div>
+                <div class="main-live-dsc">
+                    <img class="sidebar-img extra-img " src="images/slider/okcode.png" alt="">
+                    <div class="main-live-dsc-names">
+                        <p class="main-live-heading"><b>Indie Tales-LUDUM DARE 53 with....</b></p>
+                        <p class="main-profile-name">AdamCYounis</p>
+                        <p class="main-profile-type">Software and Game Development</p>
+                        <span class="main-live-tags">ludumare</span>
+                        <span class="main-live-tags">gamedev</span>
+                        <span class="main-live-tags">Pixelart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"><img id="footer-img" src="images/logo of footer.png" height="40px"><span id="downline">Join the
+            twitch community! Discover the best live stream anywhere.</span><button id="footer-button">Sing up</button>
+
+
+</body>
+
+</html>
